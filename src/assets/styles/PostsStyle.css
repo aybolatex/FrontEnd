@@ -1,0 +1,12 @@
+/* Add this to your existing CSS file or create a new one */
+
+/* Opacity */
+.container.opacity {
+    opacity: 0.8;
+}
+
+/* Position Property */
+.col-3 {
+    position: relative;
+    top: 20px;
+}

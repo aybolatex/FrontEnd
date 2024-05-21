@@ -1,0 +1,41 @@
+/* Element Selector */
+h2 {
+    color: #333;
+}
+
+/* Class Selector */
+.container.post-detail{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.post-detail {
+    margin-top: 20px;
+}
+
+/* Child Selector */
+.container > hr {
+    border-color: #999;
+}
+
+/* ID Selector */
+#post-detail-title {
+    font-size: 24px;
+}
+
+/* Pseudo-class Selector */
+.btn.back-button:hover {
+    background-color: #4285f4;
+}
+
+.btn.secondary-button:hover {
+    background-color: #fff400;
+}
+
+/* Pseudo-element Selector */
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
